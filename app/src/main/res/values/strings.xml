@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ReferApp</string>
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_app_id">425347821425389</string>
+    <string name="fb_login_protocol_scheme">fb425347821425389</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="admob_app_id">ca-app-pub-4691746956971834~4554402079</string>
+
+    <string name="copy_code"><u>Copy code</u></string>
+
+    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="reward_id">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="inter_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="native_id">ca-app-pub-4691746956971834/8137396191</string>
+
+    <!--<string name="banner_id">ca-app-pub-4691746956971834/2858177022</string>
+    <string name="reward_id">ca-app-pub-4691746956971834/6085947929</string>
+    <string name="inter_id">ca-app-pub-4691746956971834/7204616141</string>
+    <string name="native_id">ca-app-pub-4691746956971834/8137396191</string>-->
+</resources>

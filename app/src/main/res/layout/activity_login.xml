@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1"
+    android:descendantFocusability="beforeDescendants">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_above="@id/bottom_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcome_to_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="welcome to"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/free_pass_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/welcome_to_text"
+            android:text="Free Royal pass, UC for PUBG"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/login_with_fb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/fb_blue"
+            android:drawableStart="@drawable/facebook_logo"
+            android:drawableLeft="@drawable/facebook_logo"
+            android:drawableEnd="@drawable/ic_arrow_forward_white_24dp"
+            android:drawableRight="@drawable/ic_arrow_forward_white_24dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Login with Facebook"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/login_with_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_with_fb"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/login_google_color"
+            android:drawableStart="@drawable/google_logo"
+            android:drawableLeft="@drawable/google_logo"
+            android:drawableEnd="@drawable/ic_arrow_forward_white_24dp"
+            android:drawableRight="@drawable/ic_arrow_forward_white_24dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Login with Google"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</RelativeLayout>

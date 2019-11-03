@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "790058738688",
+    "firebase_url": "https://freeuc-d6ee1.firebaseio.com",
+    "project_id": "freeuc-d6ee1",
+    "storage_bucket": "freeuc-d6ee1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790058738688:android:93f2b440628e174239a4e5",
+        "android_client_info": {
+          "package_name": "com.free.pubg.uc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790058738688-6a85shm34e1rdikcrokcfoeuhp1cebga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxPgQCGMJ80KUjhbLIon_0LQifZHZ51I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790058738688-kic66ih9ut1fn5bpl20nne72tghpjrl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item android:id="@+id/wallet"
+    android:title="Wallet"
+    android:icon="@drawable/wallet_icon"
+    app:showAsAction="always" />
+
+    <item android:id="@+id/rate_us"
+        android:title="Rate Us"
+        android:icon="@drawable/rate_us_icon"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/how_it_work"
+        android:title="How it work"
+        android:icon="@drawable/how_it_work_icon"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/update"
+        android:title="Update"
+        android:icon="@drawable/update_icon"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/feedback"
+        android:title="Feedback"
+        android:icon="@drawable/feedback_icon"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/privacy_policy"
+        android:title="Privacy Policy"
+        android:icon="@drawable/privacy_policy_icon"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/logout_icon"
+        app:showAsAction="always"/>
+</menu>
