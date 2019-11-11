@@ -12,15 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".uc.activities.RedeemHistory"></activity>
-        <activity android:name=".uc.activities.ReedemOptions" />
-        <activity android:name=".uc.activities.Wallet" />
-        <activity android:name=".uc.activities.ParticipateHistory" />
-        <activity android:name=".uc.activities.RoyalPassRequest" />
-        <activity android:name=".uc.activities.RoyalPass" />
+        <activity android:name=".free.uc.activities.RedeemHistory"></activity>
+        <activity android:name=".free.uc.activities.ReedemOptions" />
+        <activity android:name=".free.uc.activities.Wallet" />
+        <activity android:name=".free.uc.activities.ParticipateHistory" />
+        <activity android:name=".free.uc.activities.RoyalPassRequest" />
+        <activity android:name=".free.uc.activities.RoyalPass" />
 
         <receiver
-            android:name=".uc.utils.InstallReferrerReceiver"
+            android:name=".free.uc.utils.InstallReferrerReceiver"
             android:exported="true"
             android:permission="android.permission.INSTALL_PACKAGES">
             <intent-filter>
@@ -28,24 +28,24 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".uc.activities.InviteAndEarn" />
-        <activity android:name=".uc.activities.ExtraBonus" />
-        <activity android:name=".uc.activities.DailyBonus" />
-        <activity android:name=".uc.activities.LuckySpin" />
+        <activity android:name=".free.uc.activities.InviteAndEarn" />
+        <activity android:name=".free.uc.activities.ExtraBonus" />
+        <activity android:name=".free.uc.activities.DailyBonus" />
+        <activity android:name=".free.uc.activities.LuckySpin" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/admob_app_id" />
 
-        <activity android:name=".uc.activities.Splash">
+        <activity android:name=".free.uc.activities.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".uc.activities.Login" />
-        <activity android:name=".uc.activities.MainActivity" />
+        <activity android:name=".free.uc.activities.Login" />
+        <activity android:name=".free.uc.activities.MainActivity" />
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
@@ -69,7 +69,7 @@
         </activity>
 
         <receiver
-            android:name=".uc.activities.LuckySpin$TenMinuteTimer"
+            android:name=".free.uc.activities.LuckySpin$TenMinuteTimer"
             android:enabled="true"
             android:process=":remote">
         </receiver>
